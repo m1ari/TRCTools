@@ -7,6 +7,9 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
+    nokogiri (1.15.4-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.7.2)
     ruby2_keywords (0.0.5)
 
 PLATFORMS
@@ -14,6 +17,7 @@ PLATFORMS
 
 DEPENDENCIES
   faraday
+  nokogiri
 
 BUNDLED WITH
    2.3.26
